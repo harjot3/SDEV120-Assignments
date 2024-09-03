@@ -1,0 +1,28 @@
+Module 2 Assignment - Variables and Constants with Arithmetic Calculations using Pseudocode
+Pseudocode Module 2 - Exercise 2 - Harjot Singh
+
+- I went to your office with you and talked to you about this assignment.
+- You said to remind you that I've been emailing you since last week about this assignment
+- in regards to grade deduction for late assignment.
+- Thank you Professor E!!
+
+Exercise 2
+Using the hierarchy chart, design the logic for a program needed by Hometown Bank.
+The program determines a monthly checking account fee.
+
+Start
+    Prompt user for account balance and assign that to variable (ex. accountBalance)
+    Prompt user for num of times account was overdrawn and assign that to variable (ex. numOverDrawn)
+    - make sure this is integer and cannot be below 0
+    If num of times account was overdrawn == 0:
+        - Exit the program and print "Thanks for using this program"
+    Else,
+    Assign a variable to store the fee (ex. overDrawnFee):
+        - this will = (account balance * 0.01 - 5) * num of times account was overdrawn
+    Decrease the account's balance
+        - calculation:
+            - account balance - over drawn fee
+    Print fee (overDrawnFee)
+    Print account balance (accountBalance)
+    Print "Thanks for using this program"
+End

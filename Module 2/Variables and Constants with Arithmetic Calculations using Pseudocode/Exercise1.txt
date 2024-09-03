@@ -1,0 +1,21 @@
+Module 2 Assignment - Variables and Constants with Arithmetic Calculations using Pseudocode
+Pseudocode Module 2 - Exercise 1 - Harjot Singh
+
+- I went to your office with you and talked to you about this assignment.
+- You said to remind you that I've been emailing you since last week about this assignment
+- in regards to grade deduction for late assignment.
+- Thank you Professor E!!
+
+Exercise 1
+Using the hierarchy chart, design the logic for a program for Wong's Appliances.
+
+Start
+    Prompt user for all following details of refrigerator:
+    - model_name
+    - interior_height
+    - interior_width
+    - interior_depth (inches)
+    Multiply the refrigerator's interior_height, interior_width, and interior_depth to get its capacity in cubic inches
+    Divide that number by 1728 to get its capacity in cubic feet
+    Print out the refrigerator's name and capacity
+End
