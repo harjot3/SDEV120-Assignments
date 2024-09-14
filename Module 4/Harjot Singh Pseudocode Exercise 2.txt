@@ -1,0 +1,23 @@
+Pseudocode Exercise 2 - Harjot Singh
+
+start
+   Set targetWord to the word you want to look up
+   Open dictionary to any page
+
+   while currentWord is not equal to targetWord
+      Check current page for a word
+
+      if currentWord comes alphabetically before targetWord then
+         Flip forward a few pages
+         Check new page
+      else if currentWord comes alphabetically after targetWord then
+         Flip backward a few pages
+         Check new page
+      else
+         Output "Word found: " + currentWord
+         Exit loop
+      endif
+   endwhile
+
+   Output "End of search"
+stop

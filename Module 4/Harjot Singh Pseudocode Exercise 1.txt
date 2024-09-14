@@ -1,0 +1,18 @@
+Pseudocode Exercise 1 - Harjot Singh
+
+start
+   Set secretNumber to any number between 1 and 100
+   Set guess to 0
+
+   while guess is not equal to secretNumber
+      Ask player to input a guess
+      if guess is greater than secretNumber then
+         Output "Too high, try again."
+      else if guess is less than secretNumber then
+         Output "Too low, try again."
+      else
+         Output "Congratulations! You guessed the correct number."
+      endif
+   endwhile
+stop
+
