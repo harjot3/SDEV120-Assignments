@@ -1,0 +1,10 @@
+Exercise 1 - Contains both Planning and Flowcharting
+Components:
+Number of questions: 5 (one question per category)
+Timing constraints: Each player has 30 seconds to answer each question.
+Expected correct answers phrased as: Answers must be phrased in the form of a question, such as "What is...?" or "Who is...?"
+Will envision game scenario as role: Moderator
+Categories: Will include 4 different categories for players to choose from
+Scoring: Players earn points for correct answers and lose points for incorrect ones. 100 points per question. No increment in points throughout questions- all questions will consist of a similar difficulty.
+Players: The user must input x amount of players participating so x amount of list(s) can be created to keep track of points/who wins.
+Overall game flow/design: Player(s) will choose a category to answer from, pick a question from that category, and answer within 30 seconds. If they answer correctly, 100 points are awarded to that player. If the player does not answer the question within 30 seconds or gets it incorrect, 100 points are deducted from their score. Their total points are displayed after each question.. After each player’s turn, (unless there are no more questions to choose from) the next player will go. Once the game has completed, the player with the most points is displayed as the winner of Jeopardy.

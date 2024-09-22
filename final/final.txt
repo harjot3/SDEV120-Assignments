@@ -1,0 +1,10 @@
+Emily Harper, 4721, 2, 38
+Liam Nguyen, 8153, 1, 42
+Sophia Patel, 2690, 0, 36
+Noah Kim, 3745, 3, 40
+Olivia Smith, 9482, 1, 45
+Ethan Brown, 5301, 2, 34
+Ava Johnson, 2967, 0, 37
+Mason Lee, 8124, 4, 41
+Isabella Davis, 1046, 1, 39
+James Wilson, 7305, 2, 44
