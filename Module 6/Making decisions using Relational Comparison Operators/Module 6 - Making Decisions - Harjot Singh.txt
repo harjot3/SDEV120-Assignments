@@ -1,0 +1,61 @@
+SDEV120 Module 6 Assignment - Making decisions using Relational Comparison Operators
+Harjot Singh
+September 29, 2024
+
+START
+
+// Create an empty list to store customer information
+SET customer_data TO empty list
+
+WHILE True DO
+    // Ask for area code
+    PRINT "Enter your area code (3 digits): "
+    INPUT area_code
+
+    // Ask for phone number
+    PRINT "Enter your phone number (7 digits): "
+    INPUT phone_number
+
+    // Ask for total text messages sent
+    PRINT "Enter the total number of text messages sent (or -1 to stop): "
+    INPUT text_messages
+
+    // Check for sentinel value to stop
+    IF text_messages EQUALS -1 THEN
+        BREAK
+
+    // Set the base fee
+    SET base_fee TO 5.00
+    SET extra_fee TO 0
+
+    // Calculate extra charges based on text messages
+    IF text_messages GREATER THAN 100 THEN
+        IF text_messages LESS THAN OR EQUAL TO 300 THEN
+            SET extra_fee TO (text_messages - 100) * 0.03
+        ELSE
+            SET extra_fee TO (200 * 0.03) + ((text_messages - 300) * 0.02)
+
+    // Calculate total bill before tax
+    SET total_bill TO base_fee + extra_fee
+
+    // Calculate total tax
+    SET total_tax TO total_bill * 0.14
+
+    // Calculate total bill after tax
+    SET total_bill_after_tax TO total_bill + total_tax
+
+    // Store customer information
+    ADD area_code, phone_number, text_messages, total_bill, total_bill_after_tax TO customer_data
+
+END WHILE
+
+// Display all customer details
+FOR each customer IN customer_data DO
+    PRINT customer's area code
+    PRINT customer's phone number
+    PRINT customer’s total text messages
+    PRINT customer’s bill before tax
+    PRINT customer’s bill after tax
+    PRINT "---------------------------"
+
+END
